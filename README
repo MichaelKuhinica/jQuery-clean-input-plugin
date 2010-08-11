@@ -1,0 +1,5 @@
+This plugin cleans an input whenever a user clicks it and then turns it back to the original text
+(if any) if the user leaves the field without inputing any data.
+
+Comments or suggestions michael [at] mediacode.com.br
+Or just fork this repo! =D

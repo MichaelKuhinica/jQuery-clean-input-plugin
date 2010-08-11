@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery-cleaninput.js"></script>
+<meta charset=utf-8 />
+<title>jQuery clean input plugin</title>
+
+<script type="text/javascript">
+  <!--
+  //Passing an array of selectors
+	$(document).ready(function(){
+		$.cleanClick(['#UserUsername', '#UserPassword']);
+		//With elements
+		$('#UserLoginForm input').cleanClick();
+	});
+  // –>
+  </script>
+
+</head>
+<body>
+<form id="form_inputs">
+	<input id="UserUsername" value="User" maxlength="50" name="username" type="text">
+	<input id="UserPassword" value="Password" name="password" type="password">
+	<input value="OK" title="OK" type="submit">
+</form>
+</body>
+</html>
